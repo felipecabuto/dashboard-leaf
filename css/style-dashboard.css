@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto&display=swap');
 
-
-
-
 /* ------------ ROOT VARIABLES ------------ */
-
 :root {
-    --color-primary: #0F876E;
-    /* --color-danger: #ff7782; */
+    --color-primary: #0F876E;    
     --color-danger: #EE3B3B;    
     --color-success: #41f1b6;
     --color-warning: #ffbb55;
@@ -17,7 +12,6 @@
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
     --color-dark-variant: #677483;
-    /* --color-background: #f6f6f9; */
     --color-background: #F5F5F5;
 
 
@@ -33,7 +27,6 @@
 }
 
  /* DARK THEME */
-
  .dark-theme-variables {
      --color-background: #181a1e;
      --color-white: #202528;
@@ -166,7 +159,7 @@ aside .logo {
 
 aside .logo img{
     width: 11rem;
-    /* height: 11rem; */
+
     margin: 1rem;
 }
 
@@ -248,7 +241,7 @@ aside .sidebar .message-count {
     border-radius: var(--border-radius-1);
 }
 
-/* ================= MAIN ================ */
+/* ------------ MAIN ------------ */
 main{
     margin-top: 1.4rem;
 }
@@ -366,8 +359,7 @@ main .insights small {
     display: block;
 }
 
-/* ===================== RECENT ORDERS ===================== */
-
+/* ------------ RECENT ORDERS ------------ */
 main .recent-orders{
     margin-top: 2rem;
 }
@@ -407,9 +399,7 @@ main .recent-orders a {
     color: var(--color-primary);
 }
 
-/* ================== RIGHT =================== */
-
-
+/* ------------ RIGHT ------------ */
 .right{
     margin-top: 1.4rem;
 }
@@ -457,8 +447,7 @@ main .recent-orders a {
     text-align: right;
 }
 
-/* =============== RECENT UPDATES =============== */
-
+/* ------------ RECENT UPDATES ------------ */
 .right .recent-updates{
     margin-top: 1rem;
 }
@@ -486,10 +475,7 @@ main .recent-orders a {
     margin-bottom: 1rem;
 }
 
-/* SALES ANALYTICS */
-
-
-
+/* ------------ SALES ANALYTICS ------------ */
 .right .sales-analytics{
     margin-top: 2rem;
 }
@@ -557,8 +543,7 @@ right .sales-analytics .add-product div h3 {
     font-weight: 600;
 }
 
-/* MEDIA QUERIES */
-
+/* ------------ MEDIA QUERIES ------------ */
 @media screen and (max-width: 1200px) {
     .container {
         width: 94%;
@@ -610,8 +595,7 @@ right .sales-analytics .add-product div h3 {
     }
 }    
 
-
-/* MEDIA QUERIES 2  */ 
+/* ------------ MEDIA QUERIES 2 ------------ */
 @media screen and (max-width: 768px) {
     .container{
         width: 100%;
@@ -723,35 +707,3 @@ right .sales-analytics .add-product div h3 {
         font-size: 2rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

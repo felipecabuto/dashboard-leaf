@@ -6,7 +6,7 @@
     <a href="https://felipecabuto.github.io/dashboard-leaf/">Acessar a demonstração</a>
 <h3 >
 
-## 🚀 Este projeto consiste em uma página de login que leva para uma página de dashboard
+## 🚀 Este projeto consiste em uma **página de Login** que leva para uma **página de Dashboard**
   
 <h4 align="center"> 
 	🚧 Em construção... 🚧
